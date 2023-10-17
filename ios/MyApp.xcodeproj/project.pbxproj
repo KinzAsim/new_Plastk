@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyAppTests.m */; };
+		02DF13E10F4C41F2B285CD05 /* Jost-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5395BB0706D34470B5E59671 /* Jost-Regular.ttf */; };
+		037DBD7B17910D33D6D18637 /* libPods-MyApp-MyAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B232D61495BDBAD13974AEFC /* libPods-MyApp-MyAppTests.a */; };
+		0BAC965BA95A48F594B977A1 /* Mulish-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D64DACA5B4DC4DF29D5ADC59 /* Mulish-ExtraLight.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13E280AAAC25435198730FD6 /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1954EE67146A4788B75A08E5 /* PlusJakartaSans-ExtraLightItalic.ttf */; };
+		156D32EEE8D14928BA17D01F /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B534EF28A40548B6BC8835EE /* PlusJakartaSans-ExtraBoldItalic.ttf */; };
+		20C1A83781A9463BB6B3EDAE /* Jost-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37A90ABE6CBF406EA815A50F /* Jost-SemiBold.ttf */; };
+		23AE4756F0F34DD8A3042DAB /* PlusJakartaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CED93ADD8744050A93BCAF7 /* PlusJakartaSans-BoldItalic.ttf */; };
+		24DF5D985A8A4EE2B5ECE213 /* Jost-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E54EDA319B94BC88ECF3176 /* Jost-MediumItalic.ttf */; };
+		2806A40A30A54C80A34F8EB2 /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DF61C266DEE4BD7BE7D3606 /* PlusJakartaSans-ExtraBold.ttf */; };
+		2822624378E6456DA4A123FA /* Axiforma-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 954F5554AC9045FAB7E55D62 /* Axiforma-Bold.ttf */; };
+		2C65C10BC7DF48B790BA12C6 /* Jost-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED65C16655A4CFDB8CA9A13 /* Jost-ThinItalic.ttf */; };
+		3A3B32D12AE44ACB895B88CD /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4626E1CBD7754238B72C45AD /* Mulish-Light.ttf */; };
+		51D715B42EE34919AB1D3F3A /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEC89B0783F146079A0B9D95 /* PlusJakartaSans-Regular.ttf */; };
+		5256A8A1E95C4F5A9663C539 /* Jost-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23D59B43E3534335A7412DA2 /* Jost-BoldItalic.ttf */; };
+		52A43992D88A46F895379CA8 /* Jost-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81A6F70C6A474027B205B479 /* Jost-SemiBoldItalic.ttf */; };
+		5377D4F474624A49B0BA1ADC /* Jost-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA2521B31904DA4BD4FA273 /* Jost-ExtraLightItalic.ttf */; };
+		550EB4AB56774B59AEB46721 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF3BA7AFBD449A394308193 /* Mulish-Bold.ttf */; };
+		5B23380C2A5D4F8CB8CE202A /* Mulish-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F16A087BDD74A3F9BADA16F /* Mulish-Italic.ttf */; };
+		5C0DD4281C14431AA975EEF2 /* OCR-A Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83932B1BA4CC46158E3B84C2 /* OCR-A Regular.ttf */; };
+		5EF752E32246469F98452208 /* Jost-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 125AB3CB0953405F902B53BF /* Jost-ExtraLight.ttf */; };
+		5F28DD87459A458FAA0FC6E3 /* Jost-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F2A51970984CC4BFC547FF /* Jost-Medium.ttf */; };
+		6420F358C0BD405DA4E04D96 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF7563815424C87A55EF81D /* PlusJakartaSans-SemiBoldItalic.ttf */; };
+		75CDEA7C22F24C5ABB4D4BEB /* Mulish-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9886FDCA8B9742D5BEE4F16B /* Mulish-BlackItalic.ttf */; };
+		75F8F0C6E84B493580AAE476 /* Mulish-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D2838FECF2346909CE46EB8 /* Mulish-BoldItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82449D73DD37435D9DC8809E /* Jost-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30B4357035F849F0BEF28049 /* Jost-LightItalic.ttf */; };
+		84259CB5F0014B99BF207F28 /* Jost-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFFBA62185FE4871BC52E596 /* Jost-ExtraBold.ttf */; };
+		85E2F954587E44B0B9AF8A07 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 137D90D2CFDE4FA8B2017DF8 /* Mulish-Medium.ttf */; };
+		8C885CE831F640EC8D7A7AC6 /* Jost-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C505F7D870B4C758ACD2BD3 /* Jost-BlackItalic.ttf */; };
+		8F0D5F49983F49EB88DDABC2 /* PlusJakartaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D6F785806C41579F3DD08B /* PlusJakartaSans-ExtraLight.ttf */; };
+		A19463F7C8BE4BD7819A3532 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 601F7D136F864F78BE198727 /* PlusJakartaSans-Bold.ttf */; };
+		A5B09A68AA16439A93854BF5 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7190271D28E461DA911C1F7 /* Mulish-SemiBold.ttf */; };
+		AA47F29C6A5B4510AF0E32BB /* Mulish-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A00262BD6E4E4B9480B506FE /* Mulish-MediumItalic.ttf */; };
+		AC2842CB23D6478B885D9599 /* Axiforma-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521D169475D6455A913B9DF4 /* Axiforma-ThinItalic.ttf */; };
+		AD9BA94F213744FDA8107B4E /* Mulish-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9786AEDFE2CD43149A91481C /* Mulish-ExtraLightItalic.ttf */; };
+		B2EEB50B32004EFF98A8E210 /* Jost-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F7140ACC84E40238BC25D6F /* Jost-Thin.ttf */; };
+		B4CE8623AAA5432D960A09B3 /* PlusJakartaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 216A6695053E4221A8CBFB7D /* PlusJakartaSans-LightItalic.ttf */; };
+		BBCF015E02F24E52A73FBC3F /* OCR-A.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5555203BDD5E490EAAE047FA /* OCR-A.ttf */; };
+		BF1205F3C8194E6B9C239A52 /* Jost-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79875D53B2DD472C861895DA /* Jost-Bold.ttf */; };
+		C2755E02861E752141FC5DA9 /* libPods-MyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B976885942E7C4F0EE4F93 /* libPods-MyApp.a */; };
+		C2F88CC63F8B4C7FAA2F4174 /* Mulish-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CEADCF608748DEAD8F310F /* Mulish-ExtraBoldItalic.ttf */; };
+		C39FF088B65A47C49AB5DD32 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E76C9BCFB401452396F38F17 /* Mulish-Black.ttf */; };
+		D0783589D4654650AB1B41BC /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A30AA81F4490446EA5CEBBD1 /* PlusJakartaSans-Light.ttf */; };
+		DBE089E6728A457F8E1BB453 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 343018D128B94C18AB9BB581 /* Mulish-Regular.ttf */; };
+		DE191950BBEA4BD3A74FC2D8 /* Jost-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79831F9EFA4D4EEE9BF003BD /* Jost-Light.ttf */; };
+		E11A1DD9FECB4B3C8D0B18D8 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEE86050006B4A89A1CC8725 /* Mulish-ExtraBold.ttf */; };
+		E313FDF0700A4A0BA67E2CCA /* Axiforma-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9528C0A7C1B84D64995C5BD8 /* Axiforma-Regular.ttf */; };
+		E38371068664475F9ECD01DE /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05338AC0B7C349B6B721F8C5 /* PlusJakartaSans-SemiBold.ttf */; };
+		EB7AD7B3BAB84221B3A04327 /* Mulish-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B420F18FEECB4F3698F7EBD9 /* Mulish-SemiBoldItalic.ttf */; };
+		EE7B08DA38734A0E97D94BD9 /* Mulish-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F7C134F4D0C4C48A978B039 /* Mulish-LightItalic.ttf */; };
+		F00B224013334990844B7E45 /* Jost-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCE2CDF50699493CB5E541A6 /* Jost-Italic.ttf */; };
+		F2F05EFCE58344B7B0588CD8 /* Jost-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC225EE8BE52403583154717 /* Jost-ExtraBoldItalic.ttf */; };
+		F632E7529DB44E1C9CC3C020 /* Axiforma-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A83C259131264C9E930D0549 /* Axiforma-Medium.ttf */; };
+		F72BCA58B7BA455A8302D2E3 /* PlusJakartaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22C5F96A94204AB7A9AF0D43 /* PlusJakartaSans-Italic.ttf */; };
+		F732B24533224D1297CBE2E1 /* Axiforma-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1655F1AEE5974B4B9256E5E7 /* Axiforma-Italic.ttf */; };
+		F80A79BAD1614FE194CA3FE7 /* PlusJakartaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59F7C7A9900E4441A2D29D3B /* PlusJakartaSans-MediumItalic.ttf */; };
+		FAA2933D93114D62BD25FEB8 /* Jost-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16193CE39E2467D966C3948 /* Jost-Black.ttf */; };
+		FBC629FADD5142F792629A34 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11BBA93C1CA6435D8ED4ABF6 /* PlusJakartaSans-Medium.ttf */; };
+		FFAC81E4CC464F28950A8D9E /* OCR-ARegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D0F6DB3DDA64A2294FA9418 /* OCR-ARegular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = MyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppTests.m; sourceTree = "<group>"; };
+		05338AC0B7C349B6B721F8C5 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-SemiBold.ttf"; path = "../src/assets/fonts/PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		0638EB5A57091A48E2C3A895 /* Pods-MyApp-MyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp-MyAppTests.release.xcconfig"; path = "Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0ED65C16655A4CFDB8CA9A13 /* Jost-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-ThinItalic.ttf"; path = "../src/assets/fonts/Jost-ThinItalic.ttf"; sourceTree = "<group>"; };
+		11BBA93C1CA6435D8ED4ABF6 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Medium.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		125AB3CB0953405F902B53BF /* Jost-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-ExtraLight.ttf"; path = "../src/assets/fonts/Jost-ExtraLight.ttf"; sourceTree = "<group>"; };
+		137D90D2CFDE4FA8B2017DF8 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Medium.ttf"; path = "../src/assets/fonts/Mulish-Medium.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MyApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyApp/main.m; sourceTree = "<group>"; };
+		1655F1AEE5974B4B9256E5E7 /* Axiforma-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Italic.ttf"; path = "../src/assets/fonts/Axiforma-Italic.ttf"; sourceTree = "<group>"; };
+		1954EE67146A4788B75A08E5 /* PlusJakartaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraLightItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		1C505F7D870B4C758ACD2BD3 /* Jost-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-BlackItalic.ttf"; path = "../src/assets/fonts/Jost-BlackItalic.ttf"; sourceTree = "<group>"; };
+		216A6695053E4221A8CBFB7D /* PlusJakartaSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-LightItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		22C5F96A94204AB7A9AF0D43 /* PlusJakartaSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Italic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Italic.ttf"; sourceTree = "<group>"; };
+		23D59B43E3534335A7412DA2 /* Jost-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-BoldItalic.ttf"; path = "../src/assets/fonts/Jost-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2CED93ADD8744050A93BCAF7 /* PlusJakartaSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-BoldItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		30B4357035F849F0BEF28049 /* Jost-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-LightItalic.ttf"; path = "../src/assets/fonts/Jost-LightItalic.ttf"; sourceTree = "<group>"; };
+		343018D128B94C18AB9BB581 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Regular.ttf"; path = "../src/assets/fonts/Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		37A90ABE6CBF406EA815A50F /* Jost-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-SemiBold.ttf"; path = "../src/assets/fonts/Jost-SemiBold.ttf"; sourceTree = "<group>"; };
+		3DF61C266DEE4BD7BE7D3606 /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraBold.ttf"; path = "../src/assets/fonts/PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4626E1CBD7754238B72C45AD /* Mulish-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Light.ttf"; path = "../src/assets/fonts/Mulish-Light.ttf"; sourceTree = "<group>"; };
+		521D169475D6455A913B9DF4 /* Axiforma-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-ThinItalic.ttf"; path = "../src/assets/fonts/Axiforma-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5395BB0706D34470B5E59671 /* Jost-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Regular.ttf"; path = "../src/assets/fonts/Jost-Regular.ttf"; sourceTree = "<group>"; };
+		5555203BDD5E490EAAE047FA /* OCR-A.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OCR-A.ttf"; path = "../src/assets/fonts/OCR-A.ttf"; sourceTree = "<group>"; };
+		59F7C7A9900E4441A2D29D3B /* PlusJakartaSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-MediumItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5D0F6DB3DDA64A2294FA9418 /* OCR-ARegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OCR-ARegular.ttf"; path = "../src/assets/fonts/OCR-ARegular.ttf"; sourceTree = "<group>"; };
+		5DE66CD0C1689CA8B6F36270 /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.debug.xcconfig"; path = "Target Support Files/Pods-MyApp/Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		601F7D136F864F78BE198727 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Bold.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
+		70B976885942E7C4F0EE4F93 /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D6F785806C41579F3DD08B /* PlusJakartaSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraLight.ttf"; path = "../src/assets/fonts/PlusJakartaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		79831F9EFA4D4EEE9BF003BD /* Jost-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Light.ttf"; path = "../src/assets/fonts/Jost-Light.ttf"; sourceTree = "<group>"; };
+		79875D53B2DD472C861895DA /* Jost-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Bold.ttf"; path = "../src/assets/fonts/Jost-Bold.ttf"; sourceTree = "<group>"; };
+		7F7140ACC84E40238BC25D6F /* Jost-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Thin.ttf"; path = "../src/assets/fonts/Jost-Thin.ttf"; sourceTree = "<group>"; };
+		81A6F70C6A474027B205B479 /* Jost-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Jost-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83932B1BA4CC46158E3B84C2 /* OCR-A Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OCR-A Regular.ttf"; path = "../src/assets/fonts/OCR-A Regular.ttf"; sourceTree = "<group>"; };
+		8E54EDA319B94BC88ECF3176 /* Jost-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-MediumItalic.ttf"; path = "../src/assets/fonts/Jost-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8F7C134F4D0C4C48A978B039 /* Mulish-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-LightItalic.ttf"; path = "../src/assets/fonts/Mulish-LightItalic.ttf"; sourceTree = "<group>"; };
+		9528C0A7C1B84D64995C5BD8 /* Axiforma-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Regular.ttf"; path = "../src/assets/fonts/Axiforma-Regular.ttf"; sourceTree = "<group>"; };
+		954F5554AC9045FAB7E55D62 /* Axiforma-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Bold.ttf"; path = "../src/assets/fonts/Axiforma-Bold.ttf"; sourceTree = "<group>"; };
+		9786AEDFE2CD43149A91481C /* Mulish-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Mulish-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		97B628B3393B6FED58F94F77 /* Pods-MyApp-MyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp-MyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9886FDCA8B9742D5BEE4F16B /* Mulish-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-BlackItalic.ttf"; path = "../src/assets/fonts/Mulish-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9D2838FECF2346909CE46EB8 /* Mulish-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-BoldItalic.ttf"; path = "../src/assets/fonts/Mulish-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9F16A087BDD74A3F9BADA16F /* Mulish-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Italic.ttf"; path = "../src/assets/fonts/Mulish-Italic.ttf"; sourceTree = "<group>"; };
+		A00262BD6E4E4B9480B506FE /* Mulish-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-MediumItalic.ttf"; path = "../src/assets/fonts/Mulish-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A30AA81F4490446EA5CEBBD1 /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Light.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; };
+		A83C259131264C9E930D0549 /* Axiforma-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Medium.ttf"; path = "../src/assets/fonts/Axiforma-Medium.ttf"; sourceTree = "<group>"; };
+		B232D61495BDBAD13974AEFC /* libPods-MyApp-MyAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp-MyAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B420F18FEECB4F3698F7EBD9 /* Mulish-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Mulish-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B534EF28A40548B6BC8835EE /* PlusJakartaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B9F2A51970984CC4BFC547FF /* Jost-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Medium.ttf"; path = "../src/assets/fonts/Jost-Medium.ttf"; sourceTree = "<group>"; };
+		BCE2CDF50699493CB5E541A6 /* Jost-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Italic.ttf"; path = "../src/assets/fonts/Jost-Italic.ttf"; sourceTree = "<group>"; };
+		BDF3BA7AFBD449A394308193 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Bold.ttf"; path = "../src/assets/fonts/Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		BEE86050006B4A89A1CC8725 /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-ExtraBold.ttf"; path = "../src/assets/fonts/Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C16193CE39E2467D966C3948 /* Jost-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Black.ttf"; path = "../src/assets/fonts/Jost-Black.ttf"; sourceTree = "<group>"; };
+		C6CBA246E9AFAEED429EBA54 /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.release.xcconfig"; path = "Target Support Files/Pods-MyApp/Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
+		C7190271D28E461DA911C1F7 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-SemiBold.ttf"; path = "../src/assets/fonts/Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		CC225EE8BE52403583154717 /* Jost-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Jost-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D64DACA5B4DC4DF29D5ADC59 /* Mulish-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-ExtraLight.ttf"; path = "../src/assets/fonts/Mulish-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D7CEADCF608748DEAD8F310F /* Mulish-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Mulish-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		DFFBA62185FE4871BC52E596 /* Jost-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-ExtraBold.ttf"; path = "../src/assets/fonts/Jost-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E76C9BCFB401452396F38F17 /* Mulish-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Black.ttf"; path = "../src/assets/fonts/Mulish-Black.ttf"; sourceTree = "<group>"; };
+		EBF7563815424C87A55EF81D /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-SemiBoldItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FAA2521B31904DA4BD4FA273 /* Jost-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Jost-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FEC89B0783F146079A0B9D95 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Regular.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037DBD7B17910D33D6D18637 /* libPods-MyApp-MyAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2755E02861E752141FC5DA9 /* libPods-MyApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* MyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* MyAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = MyAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = MyApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				70B976885942E7C4F0EE4F93 /* libPods-MyApp.a */,
+				B232D61495BDBAD13974AEFC /* libPods-MyApp-MyAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* MyApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MyAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B6D156A02F3D43E6BFB4FF50 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MyApp.app */,
+				00E356EE1AD99517003FC87E /* MyAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D156A02F3D43E6BFB4FF50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				954F5554AC9045FAB7E55D62 /* Axiforma-Bold.ttf */,
+				1655F1AEE5974B4B9256E5E7 /* Axiforma-Italic.ttf */,
+				A83C259131264C9E930D0549 /* Axiforma-Medium.ttf */,
+				9528C0A7C1B84D64995C5BD8 /* Axiforma-Regular.ttf */,
+				521D169475D6455A913B9DF4 /* Axiforma-ThinItalic.ttf */,
+				C16193CE39E2467D966C3948 /* Jost-Black.ttf */,
+				1C505F7D870B4C758ACD2BD3 /* Jost-BlackItalic.ttf */,
+				79875D53B2DD472C861895DA /* Jost-Bold.ttf */,
+				23D59B43E3534335A7412DA2 /* Jost-BoldItalic.ttf */,
+				DFFBA62185FE4871BC52E596 /* Jost-ExtraBold.ttf */,
+				CC225EE8BE52403583154717 /* Jost-ExtraBoldItalic.ttf */,
+				125AB3CB0953405F902B53BF /* Jost-ExtraLight.ttf */,
+				FAA2521B31904DA4BD4FA273 /* Jost-ExtraLightItalic.ttf */,
+				BCE2CDF50699493CB5E541A6 /* Jost-Italic.ttf */,
+				79831F9EFA4D4EEE9BF003BD /* Jost-Light.ttf */,
+				30B4357035F849F0BEF28049 /* Jost-LightItalic.ttf */,
+				B9F2A51970984CC4BFC547FF /* Jost-Medium.ttf */,
+				8E54EDA319B94BC88ECF3176 /* Jost-MediumItalic.ttf */,
+				5395BB0706D34470B5E59671 /* Jost-Regular.ttf */,
+				37A90ABE6CBF406EA815A50F /* Jost-SemiBold.ttf */,
+				81A6F70C6A474027B205B479 /* Jost-SemiBoldItalic.ttf */,
+				7F7140ACC84E40238BC25D6F /* Jost-Thin.ttf */,
+				0ED65C16655A4CFDB8CA9A13 /* Jost-ThinItalic.ttf */,
+				E76C9BCFB401452396F38F17 /* Mulish-Black.ttf */,
+				9886FDCA8B9742D5BEE4F16B /* Mulish-BlackItalic.ttf */,
+				BDF3BA7AFBD449A394308193 /* Mulish-Bold.ttf */,
+				9D2838FECF2346909CE46EB8 /* Mulish-BoldItalic.ttf */,
+				BEE86050006B4A89A1CC8725 /* Mulish-ExtraBold.ttf */,
+				D7CEADCF608748DEAD8F310F /* Mulish-ExtraBoldItalic.ttf */,
+				D64DACA5B4DC4DF29D5ADC59 /* Mulish-ExtraLight.ttf */,
+				9786AEDFE2CD43149A91481C /* Mulish-ExtraLightItalic.ttf */,
+				9F16A087BDD74A3F9BADA16F /* Mulish-Italic.ttf */,
+				4626E1CBD7754238B72C45AD /* Mulish-Light.ttf */,
+				8F7C134F4D0C4C48A978B039 /* Mulish-LightItalic.ttf */,
+				137D90D2CFDE4FA8B2017DF8 /* Mulish-Medium.ttf */,
+				A00262BD6E4E4B9480B506FE /* Mulish-MediumItalic.ttf */,
+				343018D128B94C18AB9BB581 /* Mulish-Regular.ttf */,
+				C7190271D28E461DA911C1F7 /* Mulish-SemiBold.ttf */,
+				B420F18FEECB4F3698F7EBD9 /* Mulish-SemiBoldItalic.ttf */,
+				83932B1BA4CC46158E3B84C2 /* OCR-A Regular.ttf */,
+				5555203BDD5E490EAAE047FA /* OCR-A.ttf */,
+				5D0F6DB3DDA64A2294FA9418 /* OCR-ARegular.ttf */,
+				601F7D136F864F78BE198727 /* PlusJakartaSans-Bold.ttf */,
+				2CED93ADD8744050A93BCAF7 /* PlusJakartaSans-BoldItalic.ttf */,
+				3DF61C266DEE4BD7BE7D3606 /* PlusJakartaSans-ExtraBold.ttf */,
+				B534EF28A40548B6BC8835EE /* PlusJakartaSans-ExtraBoldItalic.ttf */,
+				73D6F785806C41579F3DD08B /* PlusJakartaSans-ExtraLight.ttf */,
+				1954EE67146A4788B75A08E5 /* PlusJakartaSans-ExtraLightItalic.ttf */,
+				22C5F96A94204AB7A9AF0D43 /* PlusJakartaSans-Italic.ttf */,
+				A30AA81F4490446EA5CEBBD1 /* PlusJakartaSans-Light.ttf */,
+				216A6695053E4221A8CBFB7D /* PlusJakartaSans-LightItalic.ttf */,
+				11BBA93C1CA6435D8ED4ABF6 /* PlusJakartaSans-Medium.ttf */,
+				59F7C7A9900E4441A2D29D3B /* PlusJakartaSans-MediumItalic.ttf */,
+				FEC89B0783F146079A0B9D95 /* PlusJakartaSans-Regular.ttf */,
+				05338AC0B7C349B6B721F8C5 /* PlusJakartaSans-SemiBold.ttf */,
+				EBF7563815424C87A55EF81D /* PlusJakartaSans-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DE66CD0C1689CA8B6F36270 /* Pods-MyApp.debug.xcconfig */,
+				C6CBA246E9AFAEED429EBA54 /* Pods-MyApp.release.xcconfig */,
+				97B628B3393B6FED58F94F77 /* Pods-MyApp-MyAppTests.debug.xcconfig */,
+				0638EB5A57091A48E2C3A895 /* Pods-MyApp-MyAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* MyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyAppTests" */;
+			buildPhases = (
+				F478E7B8C01C126E7B45277B /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				D811CB8292D817EAF7705562 /* [CP] Embed Pods Frameworks */,
+				36B861E96643BA7439C2B6F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = MyAppTests;
+			productName = MyAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* MyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* MyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildPhases = (
+				E31FF35E21EE8C866347D6E8 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				2BDBF79D0B2773DAF815C2FF /* [CP] Embed Pods Frameworks */,
+				1BB534F18FB41501779FF473 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyApp;
+			productName = MyApp;
+			productReference = 13B07F961A680F5B00A75B9A /* MyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MyApp */,
+				00E356ED1AD99517003FC87E /* MyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2822624378E6456DA4A123FA /* Axiforma-Bold.ttf in Resources */,
+				F732B24533224D1297CBE2E1 /* Axiforma-Italic.ttf in Resources */,
+				F632E7529DB44E1C9CC3C020 /* Axiforma-Medium.ttf in Resources */,
+				E313FDF0700A4A0BA67E2CCA /* Axiforma-Regular.ttf in Resources */,
+				AC2842CB23D6478B885D9599 /* Axiforma-ThinItalic.ttf in Resources */,
+				FAA2933D93114D62BD25FEB8 /* Jost-Black.ttf in Resources */,
+				8C885CE831F640EC8D7A7AC6 /* Jost-BlackItalic.ttf in Resources */,
+				BF1205F3C8194E6B9C239A52 /* Jost-Bold.ttf in Resources */,
+				5256A8A1E95C4F5A9663C539 /* Jost-BoldItalic.ttf in Resources */,
+				84259CB5F0014B99BF207F28 /* Jost-ExtraBold.ttf in Resources */,
+				F2F05EFCE58344B7B0588CD8 /* Jost-ExtraBoldItalic.ttf in Resources */,
+				5EF752E32246469F98452208 /* Jost-ExtraLight.ttf in Resources */,
+				5377D4F474624A49B0BA1ADC /* Jost-ExtraLightItalic.ttf in Resources */,
+				F00B224013334990844B7E45 /* Jost-Italic.ttf in Resources */,
+				DE191950BBEA4BD3A74FC2D8 /* Jost-Light.ttf in Resources */,
+				82449D73DD37435D9DC8809E /* Jost-LightItalic.ttf in Resources */,
+				5F28DD87459A458FAA0FC6E3 /* Jost-Medium.ttf in Resources */,
+				24DF5D985A8A4EE2B5ECE213 /* Jost-MediumItalic.ttf in Resources */,
+				02DF13E10F4C41F2B285CD05 /* Jost-Regular.ttf in Resources */,
+				20C1A83781A9463BB6B3EDAE /* Jost-SemiBold.ttf in Resources */,
+				52A43992D88A46F895379CA8 /* Jost-SemiBoldItalic.ttf in Resources */,
+				B2EEB50B32004EFF98A8E210 /* Jost-Thin.ttf in Resources */,
+				2C65C10BC7DF48B790BA12C6 /* Jost-ThinItalic.ttf in Resources */,
+				C39FF088B65A47C49AB5DD32 /* Mulish-Black.ttf in Resources */,
+				75CDEA7C22F24C5ABB4D4BEB /* Mulish-BlackItalic.ttf in Resources */,
+				550EB4AB56774B59AEB46721 /* Mulish-Bold.ttf in Resources */,
+				75F8F0C6E84B493580AAE476 /* Mulish-BoldItalic.ttf in Resources */,
+				E11A1DD9FECB4B3C8D0B18D8 /* Mulish-ExtraBold.ttf in Resources */,
+				C2F88CC63F8B4C7FAA2F4174 /* Mulish-ExtraBoldItalic.ttf in Resources */,
+				0BAC965BA95A48F594B977A1 /* Mulish-ExtraLight.ttf in Resources */,
+				AD9BA94F213744FDA8107B4E /* Mulish-ExtraLightItalic.ttf in Resources */,
+				5B23380C2A5D4F8CB8CE202A /* Mulish-Italic.ttf in Resources */,
+				3A3B32D12AE44ACB895B88CD /* Mulish-Light.ttf in Resources */,
+				EE7B08DA38734A0E97D94BD9 /* Mulish-LightItalic.ttf in Resources */,
+				85E2F954587E44B0B9AF8A07 /* Mulish-Medium.ttf in Resources */,
+				AA47F29C6A5B4510AF0E32BB /* Mulish-MediumItalic.ttf in Resources */,
+				DBE089E6728A457F8E1BB453 /* Mulish-Regular.ttf in Resources */,
+				A5B09A68AA16439A93854BF5 /* Mulish-SemiBold.ttf in Resources */,
+				EB7AD7B3BAB84221B3A04327 /* Mulish-SemiBoldItalic.ttf in Resources */,
+				5C0DD4281C14431AA975EEF2 /* OCR-A Regular.ttf in Resources */,
+				BBCF015E02F24E52A73FBC3F /* OCR-A.ttf in Resources */,
+				FFAC81E4CC464F28950A8D9E /* OCR-ARegular.ttf in Resources */,
+				A19463F7C8BE4BD7819A3532 /* PlusJakartaSans-Bold.ttf in Resources */,
+				23AE4756F0F34DD8A3042DAB /* PlusJakartaSans-BoldItalic.ttf in Resources */,
+				2806A40A30A54C80A34F8EB2 /* PlusJakartaSans-ExtraBold.ttf in Resources */,
+				156D32EEE8D14928BA17D01F /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */,
+				8F0D5F49983F49EB88DDABC2 /* PlusJakartaSans-ExtraLight.ttf in Resources */,
+				13E280AAAC25435198730FD6 /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */,
+				F72BCA58B7BA455A8302D2E3 /* PlusJakartaSans-Italic.ttf in Resources */,
+				D0783589D4654650AB1B41BC /* PlusJakartaSans-Light.ttf in Resources */,
+				B4CE8623AAA5432D960A09B3 /* PlusJakartaSans-LightItalic.ttf in Resources */,
+				FBC629FADD5142F792629A34 /* PlusJakartaSans-Medium.ttf in Resources */,
+				F80A79BAD1614FE194CA3FE7 /* PlusJakartaSans-MediumItalic.ttf in Resources */,
+				51D715B42EE34919AB1D3F3A /* PlusJakartaSans-Regular.ttf in Resources */,
+				E38371068664475F9ECD01DE /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				6420F358C0BD405DA4E04D96 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		1BB534F18FB41501779FF473 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyApp/Pods-MyApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyApp/Pods-MyApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyApp/Pods-MyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BDBF79D0B2773DAF815C2FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyApp/Pods-MyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyApp/Pods-MyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyApp/Pods-MyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B861E96643BA7439C2B6F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D811CB8292D817EAF7705562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyApp-MyAppTests/Pods-MyApp-MyAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E31FF35E21EE8C866347D6E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F478E7B8C01C126E7B45277B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyApp-MyAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* MyAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* MyApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B628B3393B6FED58F94F77 /* Pods-MyApp-MyAppTests.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.myapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0638EB5A57091A48E2C3A895 /* Pods-MyApp-MyAppTests.release.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = MyAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.myapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE66CD0C1689CA8B6F36270 /* Pods-MyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RHJ7QX2TY5;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MyApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlastkApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.myapp;
+				PRODUCT_NAME = MyApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CBA246E9AFAEED429EBA54 /* Pods-MyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RHJ7QX2TY5;
+				INFOPLIST_FILE = MyApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlastkApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.myapp;
+				PRODUCT_NAME = MyApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

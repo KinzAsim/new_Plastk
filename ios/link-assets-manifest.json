@@ -1,0 +1,229 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Axiforma-Bold.ttf",
+      "sha1": "5e1b228414e2eea9b3760e42e41a1e5093dbcee0"
+    },
+    {
+      "path": "src/assets/fonts/Axiforma-Italic.ttf",
+      "sha1": "d6122021181aa4ea6ac86e18d20e8edf4762d6fb"
+    },
+    {
+      "path": "src/assets/fonts/Axiforma-Medium.ttf",
+      "sha1": "99f123acaa76e20aaba5c97973533f79e3627366"
+    },
+    {
+      "path": "src/assets/fonts/Axiforma-Regular.ttf",
+      "sha1": "ef9e9d1826b0c9b4f21a4ce7db8fff01b78d5bdc"
+    },
+    {
+      "path": "src/assets/fonts/Axiforma-ThinItalic.ttf",
+      "sha1": "4fcad7851939d22b2e915c505e68545165ae1f97"
+    },
+    {
+      "path": "src/assets/fonts/Jost-Black.ttf",
+      "sha1": "703b278986170ee376c791e16ecb381a2c3679c5"
+    },
+    {
+      "path": "src/assets/fonts/Jost-BlackItalic.ttf",
+      "sha1": "e52d329fd5578d1045538b3a661d66d996faff50"
+    },
+    {
+      "path": "src/assets/fonts/Jost-Bold.ttf",
+      "sha1": "03ff01bdda0a0fb7c9efb436ff846a254ae7691e"
+    },
+    {
+      "path": "src/assets/fonts/Jost-BoldItalic.ttf",
+      "sha1": "0e2e80977fcde87c3dbb6868018dedd90bd20e49"
+    },
+    {
+      "path": "src/assets/fonts/Jost-ExtraBold.ttf",
+      "sha1": "6cec05a0f036209249b59d10544b372b3e055969"
+    },
+    {
+      "path": "src/assets/fonts/Jost-ExtraBoldItalic.ttf",
+      "sha1": "e1b863a9bde84220a80a7d37107508080530f34c"
+    },
+    {
+      "path": "src/assets/fonts/Jost-ExtraLight.ttf",
+      "sha1": "34f24476b8b82d168cefaa7e3e6262019c41876e"
+    },
+    {
+      "path": "src/assets/fonts/Jost-ExtraLightItalic.ttf",
+      "sha1": "d57c0cb67eea1a24d94778075d3c522df4f8fa0b"
+    },
+    {
+      "path": "src/assets/fonts/Jost-Italic.ttf",
+      "sha1": "9847f60567d3149446862bf38ed941e964cac9a7"
+    },
+    {
+      "path": "src/assets/fonts/Jost-Light.ttf",
+      "sha1": "5d793e66ad9ec63f95c9dc3f9b77a1f98f2387b4"
+    },
+    {
+      "path": "src/assets/fonts/Jost-LightItalic.ttf",
+      "sha1": "bdfdf79b8075f55608feef7fb0af84ad68a6c161"
+    },
+    {
+      "path": "src/assets/fonts/Jost-Medium.ttf",
+      "sha1": "82a7ae9626c22c13919e74e6e6394a6c37513695"
+    },
+    {
+      "path": "src/assets/fonts/Jost-MediumItalic.ttf",
+      "sha1": "89e3eee0bed1c94aa143887b2e447ff93f4f5ab0"
+    },
+    {
+      "path": "src/assets/fonts/Jost-Regular.ttf",
+      "sha1": "fd03d18e64f807a056a6388171c259ec6c3a97bd"
+    },
+    {
+      "path": "src/assets/fonts/Jost-SemiBold.ttf",
+      "sha1": "c35ced7c9fb59a5d1e50abf0a64c526fb1fca21c"
+    },
+    {
+      "path": "src/assets/fonts/Jost-SemiBoldItalic.ttf",
+      "sha1": "1a508a65805c21c29eee660072bc78bf54813059"
+    },
+    {
+      "path": "src/assets/fonts/Jost-Thin.ttf",
+      "sha1": "5335e254a07486908ec3f29a99e8c0054da52d12"
+    },
+    {
+      "path": "src/assets/fonts/Jost-ThinItalic.ttf",
+      "sha1": "d2ecf15872f67a81c7e65db25f8cde8612301c1e"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-Black.ttf",
+      "sha1": "8e98685f9e59a53583184579e085394e7072d7f6"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-BlackItalic.ttf",
+      "sha1": "cfd321aa5284955a0797c7e2bf7afbcfb588e909"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-Bold.ttf",
+      "sha1": "3c0089e0d91befccdeadf5fff88310c417c4ca03"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-BoldItalic.ttf",
+      "sha1": "26260b85f1d7f21c835b081f318154a61409bcea"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-ExtraBold.ttf",
+      "sha1": "aa9248fe75453d6ecaabb44871afdf8380012b82"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-ExtraBoldItalic.ttf",
+      "sha1": "19b9d77ab98efb0cb66f2680aa34519d7590d4da"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-ExtraLight.ttf",
+      "sha1": "f1937de9b45e7d186211acc38609726386568f10"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-ExtraLightItalic.ttf",
+      "sha1": "860baa59f5ed0bf9f776b83431672e272a31d49b"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-Italic.ttf",
+      "sha1": "317d0431b08bab0c6d4e1317797d17dbe8de577f"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-Light.ttf",
+      "sha1": "2472d7c69e56494c9d4534baef92ab614e70b148"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-LightItalic.ttf",
+      "sha1": "0f30d3a70396f30b47d040cb4040829cef631f50"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-Medium.ttf",
+      "sha1": "5387bda080a8ab0ae5c0af3202b08136905deee5"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-MediumItalic.ttf",
+      "sha1": "acee3ab7a31721986c7cf3a31204f170495f5d3f"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-Regular.ttf",
+      "sha1": "4707223b24a2784e88ea9e3df752e9a034e6a04a"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-SemiBold.ttf",
+      "sha1": "4ad5a0cf99a17236604359a184beb2513441f384"
+    },
+    {
+      "path": "src/assets/fonts/Mulish-SemiBoldItalic.ttf",
+      "sha1": "30544c094689b1bb5adb2fa862d7a8fb3731e899"
+    },
+    {
+      "path": "src/assets/fonts/OCR-A Regular.ttf",
+      "sha1": "b6e05cff15d96a5bd08fc664cfbdeabbaaedf821"
+    },
+    {
+      "path": "src/assets/fonts/OCR-A.ttf",
+      "sha1": "33f10c648bfb1b25d0bd3a34615e62bba86511ed"
+    },
+    {
+      "path": "src/assets/fonts/OCR-ARegular.ttf",
+      "sha1": "e6c35aee44323fee6068f0369fd1e942a716872c"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-Bold.ttf",
+      "sha1": "65d200b5d71c1eb13a4adc781bf1736f9023e7d1"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-BoldItalic.ttf",
+      "sha1": "37ac874642792b98fa5cc4265eaecf524958cbf5"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-ExtraBold.ttf",
+      "sha1": "ae3e020c0aa18846f2e00061fadb354e4d4ede1d"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf",
+      "sha1": "e7bae9b8bc93199c4e000f1da5869f36af2856a8"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-ExtraLight.ttf",
+      "sha1": "dfc917207ff3f235abe957fc54d02c0c651bb1b3"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf",
+      "sha1": "5f13537bcfab5dfa67781c9c8542b2d0e2127d0f"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-Italic.ttf",
+      "sha1": "dddce7b58057b032a4057e5406356c3551e2bb4a"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-Light.ttf",
+      "sha1": "bac18663bde6c31b5ebed0350c72a52eaa21364e"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-LightItalic.ttf",
+      "sha1": "9e895c9cb6d2b1fedda4f1d54609e53b5d304824"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-Medium.ttf",
+      "sha1": "d9f2b21bd07ae873b2696ae985cdff528fa1c6ec"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-MediumItalic.ttf",
+      "sha1": "d19834eaebd28ce8c76b70db67fb73496500387f"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-Regular.ttf",
+      "sha1": "535033c2b4eb50644357745f7ebeb5e1381428d9"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-SemiBold.ttf",
+      "sha1": "0de275ba9332fd64d48a9b481866d4f8c37c3d2a"
+    },
+    {
+      "path": "src/assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf",
+      "sha1": "6d6617981be2c865547d48510ffdc2bf4785a85c"
+    }
+  ]
+}
